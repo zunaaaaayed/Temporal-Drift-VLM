@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="sdkName" value="Temporal-Drift-VLM" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Temporal-Drift-VLM" project-jdk-type="Python SDK" />
+</project>

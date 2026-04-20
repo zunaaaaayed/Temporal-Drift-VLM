@@ -1,0 +1,380 @@
+[
+  {
+    "concept": "mountain",
+    "tier": "stable",
+    "t_bin": "pre2008",
+    "mean_sharpness": 1788.528429107666,
+    "n": 50
+  },
+  {
+    "concept": "mountain",
+    "tier": "stable",
+    "t_bin": "2008_2011",
+    "mean_sharpness": 2743.2643991088867,
+    "n": 50
+  },
+  {
+    "concept": "mountain",
+    "tier": "stable",
+    "t_bin": "2012_2014",
+    "mean_sharpness": 2468.2255590438845,
+    "n": 50
+  },
+  {
+    "concept": "river",
+    "tier": "stable",
+    "t_bin": "pre2008",
+    "mean_sharpness": 2651.8424572753906,
+    "n": 50
+  },
+  {
+    "concept": "river",
+    "tier": "stable",
+    "t_bin": "2008_2011",
+    "mean_sharpness": 1881.304192123413,
+    "n": 50
+  },
+  {
+    "concept": "river",
+    "tier": "stable",
+    "t_bin": "2012_2014",
+    "mean_sharpness": 2417.445191650391,
+    "n": 50
+  },
+  {
+    "concept": "ocean",
+    "tier": "stable",
+    "t_bin": "pre2008",
+    "mean_sharpness": 1507.8581790161134,
+    "n": 50
+  },
+  {
+    "concept": "ocean",
+    "tier": "stable",
+    "t_bin": "2008_2011",
+    "mean_sharpness": 1248.3707455444337,
+    "n": 50
+  },
+  {
+    "concept": "ocean",
+    "tier": "stable",
+    "t_bin": "2012_2014",
+    "mean_sharpness": 1748.0537456512452,
+    "n": 50
+  },
+  {
+    "concept": "forest",
+    "tier": "stable",
+    "t_bin": "pre2008",
+    "mean_sharpness": 2159.6229680633546,
+    "n": 50
+  },
+  {
+    "concept": "forest",
+    "tier": "stable",
+    "t_bin": "2008_2011",
+    "mean_sharpness": 3188.9938305664064,
+    "n": 50
+  },
+  {
+    "concept": "forest",
+    "tier": "stable",
+    "t_bin": "2012_2014",
+    "mean_sharpness": 2381.5930114746093,
+    "n": 50
+  },
+  {
+    "concept": "beach",
+    "tier": "stable",
+    "t_bin": "pre2008",
+    "mean_sharpness": 1316.0716442871094,
+    "n": 50
+  },
+  {
+    "concept": "beach",
+    "tier": "stable",
+    "t_bin": "2008_2011",
+    "mean_sharpness": 1449.175101928711,
+    "n": 50
+  },
+  {
+    "concept": "beach",
+    "tier": "stable",
+    "t_bin": "2012_2014",
+    "mean_sharpness": 1739.8567803955077,
+    "n": 50
+  },
+  {
+    "concept": "moon",
+    "tier": "stable",
+    "t_bin": "pre2008",
+    "mean_sharpness": 877.4095310401916,
+    "n": 50
+  },
+  {
+    "concept": "moon",
+    "tier": "stable",
+    "t_bin": "2008_2011",
+    "mean_sharpness": 1460.40874420166,
+    "n": 50
+  },
+  {
+    "concept": "moon",
+    "tier": "stable",
+    "t_bin": "2012_2014",
+    "mean_sharpness": 1045.0184577941895,
+    "n": 50
+  },
+  {
+    "concept": "hospital",
+    "tier": "slow",
+    "t_bin": "pre2008",
+    "mean_sharpness": 1339.097278137207,
+    "n": 50
+  },
+  {
+    "concept": "hospital",
+    "tier": "slow",
+    "t_bin": "2008_2011",
+    "mean_sharpness": 2030.46352142334,
+    "n": 50
+  },
+  {
+    "concept": "hospital",
+    "tier": "slow",
+    "t_bin": "2012_2014",
+    "mean_sharpness": 3471.429345703125,
+    "n": 50
+  },
+  {
+    "concept": "office",
+    "tier": "slow",
+    "t_bin": "pre2008",
+    "mean_sharpness": 1787.75725189209,
+    "n": 50
+  },
+  {
+    "concept": "office",
+    "tier": "slow",
+    "t_bin": "2008_2011",
+    "mean_sharpness": 1240.9447534179687,
+    "n": 50
+  },
+  {
+    "concept": "office",
+    "tier": "slow",
+    "t_bin": "2012_2014",
+    "mean_sharpness": 1873.3956820678711,
+    "n": 50
+  },
+  {
+    "concept": "classroom",
+    "tier": "slow",
+    "t_bin": "pre2008",
+    "mean_sharpness": 1487.4120443725585,
+    "n": 50
+  },
+  {
+    "concept": "classroom",
+    "tier": "slow",
+    "t_bin": "2008_2011",
+    "mean_sharpness": 2070.871569519043,
+    "n": 50
+  },
+  {
+    "concept": "classroom",
+    "tier": "slow",
+    "t_bin": "2012_2014",
+    "mean_sharpness": 2329.200386352539,
+    "n": 50
+  },
+  {
+    "concept": "restaurant",
+    "tier": "slow",
+    "t_bin": "pre2008",
+    "mean_sharpness": 1705.9125238037109,
+    "n": 50
+  },
+  {
+    "concept": "restaurant",
+    "tier": "slow",
+    "t_bin": "2008_2011",
+    "mean_sharpness": 2046.9772094726563,
+    "n": 50
+  },
+  {
+    "concept": "restaurant",
+    "tier": "slow",
+    "t_bin": "2012_2014",
+    "mean_sharpness": 2187.785780029297,
+    "n": 50
+  },
+  {
+    "concept": "library",
+    "tier": "slow",
+    "t_bin": "pre2008",
+    "mean_sharpness": 1691.5126553344726,
+    "n": 50
+  },
+  {
+    "concept": "library",
+    "tier": "slow",
+    "t_bin": "2008_2011",
+    "mean_sharpness": 2057.099232635498,
+    "n": 50
+  },
+  {
+    "concept": "library",
+    "tier": "slow",
+    "t_bin": "2012_2014",
+    "mean_sharpness": 2423.726265258789,
+    "n": 50
+  },
+  {
+    "concept": "surgery",
+    "tier": "slow",
+    "t_bin": "pre2008",
+    "mean_sharpness": 1479.6787182617188,
+    "n": 50
+  },
+  {
+    "concept": "surgery",
+    "tier": "slow",
+    "t_bin": "2008_2011",
+    "mean_sharpness": 1112.863122177124,
+    "n": 50
+  },
+  {
+    "concept": "surgery",
+    "tier": "slow",
+    "t_bin": "2012_2014",
+    "mean_sharpness": 1681.79986328125,
+    "n": 50
+  },
+  {
+    "concept": "phone",
+    "tier": "fast",
+    "t_bin": "pre2008",
+    "mean_sharpness": 1364.7617433166504,
+    "n": 50
+  },
+  {
+    "concept": "phone",
+    "tier": "fast",
+    "t_bin": "2008_2011",
+    "mean_sharpness": 1603.8902732849122,
+    "n": 50
+  },
+  {
+    "concept": "phone",
+    "tier": "fast",
+    "t_bin": "2012_2014",
+    "mean_sharpness": 2093.6117309570313,
+    "n": 50
+  },
+  {
+    "concept": "protest",
+    "tier": "fast",
+    "t_bin": "pre2008",
+    "mean_sharpness": 2739.198118896484,
+    "n": 50
+  },
+  {
+    "concept": "protest",
+    "tier": "fast",
+    "t_bin": "2008_2011",
+    "mean_sharpness": 3123.7538179016115,
+    "n": 50
+  },
+  {
+    "concept": "protest",
+    "tier": "fast",
+    "t_bin": "2012_2014",
+    "mean_sharpness": 2885.810148925781,
+    "n": 50
+  },
+  {
+    "concept": "television",
+    "tier": "fast",
+    "t_bin": "pre2008",
+    "mean_sharpness": 1802.2396960449219,
+    "n": 50
+  },
+  {
+    "concept": "television",
+    "tier": "fast",
+    "t_bin": "2008_2011",
+    "mean_sharpness": 2165.8214459228516,
+    "n": 50
+  },
+  {
+    "concept": "television",
+    "tier": "fast",
+    "t_bin": "2012_2014",
+    "mean_sharpness": 1729.711806640625,
+    "n": 50
+  },
+  {
+    "concept": "computer",
+    "tier": "fast",
+    "t_bin": "pre2008",
+    "mean_sharpness": 1374.3253675842286,
+    "n": 50
+  },
+  {
+    "concept": "computer",
+    "tier": "fast",
+    "t_bin": "2008_2011",
+    "mean_sharpness": 1933.1647708129883,
+    "n": 50
+  },
+  {
+    "concept": "computer",
+    "tier": "fast",
+    "t_bin": "2012_2014",
+    "mean_sharpness": 2250.177155761719,
+    "n": 50
+  },
+  {
+    "concept": "camera",
+    "tier": "fast",
+    "t_bin": "pre2008",
+    "mean_sharpness": 1798.9240809631347,
+    "n": 50
+  },
+  {
+    "concept": "camera",
+    "tier": "fast",
+    "t_bin": "2008_2011",
+    "mean_sharpness": 2923.9982693481447,
+    "n": 50
+  },
+  {
+    "concept": "camera",
+    "tier": "fast",
+    "t_bin": "2012_2014",
+    "mean_sharpness": 2340.0670233154297,
+    "n": 50
+  },
+  {
+    "concept": "car",
+    "tier": "fast",
+    "t_bin": "pre2008",
+    "mean_sharpness": 2254.7791571044922,
+    "n": 50
+  },
+  {
+    "concept": "car",
+    "tier": "fast",
+    "t_bin": "2008_2011",
+    "mean_sharpness": 2161.6327908325197,
+    "n": 50
+  },
+  {
+    "concept": "car",
+    "tier": "fast",
+    "t_bin": "2012_2014",
+    "mean_sharpness": 2597.9489367675783,
+    "n": 50
+  }
+]
