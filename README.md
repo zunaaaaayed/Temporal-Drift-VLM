@@ -140,7 +140,7 @@ If you use this work, please cite:
   title   = {Temporal Drift in Visual Embedding Spaces of Multilingual Vision-Language Models},
   author  = {Islam, Md Zunayedul and Escudero-Viñolo, Marcos},
   year    = {2026},
-  institution = {Universidad Aut{\'o}noma de Madrid},
+  institution = {Universidad Autónoma de Madrid},
 }
 ```
 
