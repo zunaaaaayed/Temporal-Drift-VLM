@@ -138,7 +138,7 @@ If you use this work, please cite:
 ```bibtex
 @misc{islam2026temporaldrift,
   title   = {Temporal Drift in Visual Embedding Spaces of Multilingual Vision-Language Models},
-  author  = {Islam, Md Zunayedul and Escudero-Vi{\~n}olo, Marcos},
+  author  = {Islam, Md Zunayedul and Escudero-Viñolo, Marcos},
   year    = {2026},
   institution = {Universidad Aut{\'o}noma de Madrid},
 }
