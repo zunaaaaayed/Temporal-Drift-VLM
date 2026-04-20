@@ -136,10 +136,10 @@ Significance level: α = 0.05. All hypotheses are pre-specified before data anal
 If you use this work, please cite:
 
 ```bibtex
-@misc{islam2025temporaldrift,
+@misc{islam2026temporaldrift,
   title   = {Temporal Drift in Visual Embedding Spaces of Multilingual Vision-Language Models},
   author  = {Islam, Md Zunayedul and Escudero-Vi{\~n}olo, Marcos},
-  year    = {2025},
+  year    = {2026},
   institution = {Universidad Aut{\'o}noma de Madrid},
 }
 ```
