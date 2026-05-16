@@ -133,8 +133,8 @@ CLIP BN MAP@10 = 0.128 vs. SigLIP-2 BN = 0.488 — the starkest multilingual gap
 
 ```
 .
-├── t-Drift-VLM_48c.ipynb                           # Main research notebook (all experiments with 48 concepts)
-├── t-Drift-VLM_18c.ipynb                           # Secondary research notebook (initial experiments with 18 concepts)
+├── t-Drift-VLM_48c.ipynb              # Main research notebook (all experiments with 48 concepts)
+├── t-Drift-VLM_18c.ipynb              # Secondary research notebook (initial experiments with 18 concepts)
 ├── metadata/
 │   └── yfcc_filtered_metadata.csv     # Filtered YFCC15M metadata (54,960 rows)
 ├── images/
@@ -212,7 +212,7 @@ Open `t-Drift-VLM_{18/48}c.ipynb` and execute cells sequentially. The notebook i
 
 Global seed is fixed to `42` across NumPy, PyTorch, Python `random`, and `PYTHONHASHSEED`. All expensive computations (visual embeddings, text embeddings, proxy SWD, style SWD, sharpness, LAB stats) are cached to disk; re-runs load from cache. Proxy SWD cache includes an embedding-matrix staleness check (max index vs. current matrix size).
 
-**GPU required for reasonable runtime** — the notebook detects CUDA automatically and falls back to CPU.
+**GPU required for reasonable runtime** — Authors used **NVIDIA A40** GPU (48GB VRAM) for 48 concepts and **NVIDIA T4** GPU (16GB VIRAM) for 18 concepts. If the `embeddings`, `images`, and `metadata` are already available on the disk, all notebooks will feasibly run on the CPU. Note that, the notebooks are capable of detecting CUDA automatically and falling back to CPU.
 
 ## Statistical Tests
 
@@ -224,7 +224,7 @@ Global seed is fixed to `42` across NumPy, PyTorch, Python `random`, and `PYTHON
 
 Significance level: α = 0.05. All hypotheses are pre-specified. The data-driven taxonomy is derived on a labeling split (rows 0:200 per concept) and evaluated on a held-out test split (rows 200:400), preventing data leakage into taxonomy construction.
 
-## What's New vs. V2 (Pilot Study)
+## Pilot Study
 
 | Dimension | 18c | 48c |
 |---|---|---|
