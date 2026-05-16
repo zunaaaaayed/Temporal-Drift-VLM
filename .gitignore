@@ -6,6 +6,7 @@
 CLAUDE.md
 graphify-out
 .claude
+.gitignore
 
 # User-specific stuff
 .idea
