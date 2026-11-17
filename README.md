@@ -16,6 +16,7 @@
 - [Organization](#organization)
 - [Outputs](#outputs)
 - [Verification](#verification)
+- [License](#license)
 
 ## Overview
 
@@ -354,4 +355,17 @@ and the archived corpus; the synthetic suite does not validate actual VLM infere
 The separate real-weight adapter check and completed verification runs are documented
 in [VALIDATION.md](docs/VALIDATION.md).
 
-Licensed under [Apache 2.0](LICENSE).
+## License
+
+The current research software, accompanying documentation, and configurations are
+licensed under the **GNU Affero General Public License, version 3 or later**
+(`AGPL-3.0-or-later`). See [LICENSE](LICENSE) and [licensing details](docs/LICENSING.md).
+
+AGPL permits research and commercial use. Distribution of covered software carries
+source-sharing obligations; modified versions supporting remote network interaction
+must also offer their corresponding source to those users, as specified in section 13.
+
+Previously published Apache-2.0 versions retain their original permissions. Frozen
+run snapshots preserve their historical licensing and metadata. Third-party images,
+datasets, model weights, and dependencies retain their own licenses; the software
+license does not grant additional rights to the draft paper or third-party material.

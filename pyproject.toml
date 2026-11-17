@@ -8,7 +8,8 @@ version = "0.1.0"
 description = "Reproducible temporal probing of multilingual visual embedding spaces"
 readme = "README.md"
 requires-python = ">=3.11,<3.14"
-license = "Apache-2.0"
+license = "AGPL-3.0-or-later"
+license-files = ["LICENSE", "LICENSES/Apache-2.0.txt", "NOTICE"]
 dependencies = [
   "numpy==2.2.6", "pandas==2.2.3", "scipy==1.15.3",
   "Pillow==11.2.1", "matplotlib==3.10.3", "scikit-learn==1.6.1",

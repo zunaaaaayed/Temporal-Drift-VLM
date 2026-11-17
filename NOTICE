@@ -1,0 +1,19 @@
+Temporal Drift in Visual Embedding Spaces
+
+Research authors: Md Zunayedul Islam and Dr. Marcos Escudero-Viñolo,
+Universidad Autónoma de Madrid.
+
+The current research software is distributed under the GNU Affero General Public
+License, version 3 or later (AGPL-3.0-or-later). See LICENSE.
+
+Earlier versions were published under Apache-2.0. Those grants remain in effect
+for those versions. The original Apache license is retained verbatim in
+LICENSES/Apache-2.0.txt. Frozen source snapshots under runs/ retain their original
+licensing and metadata; they are not relicensed by this change.
+
+On 17 November 2026, the project license, package licensing metadata, and README
+were updated to adopt AGPL-3.0-or-later. Completed experiment artifacts and frozen
+source snapshots were not modified. See docs/LICENSING.md for scope and history.
+
+External photographs, datasets, model weights, and dependencies remain subject to
+their respective licenses and attribution requirements.
