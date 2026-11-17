@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "experiment": "experiment.notebook.json",
+  "prompts": "prompts.notebook.json",
+  "sources": "sources.lock.json",
+  "data_root": "../data/yfcc15m-20261117",
+  "artifact_root": "../artifacts/rtx4000ada-20261117",
+  "run_root": "../runs",
+  "seed": 42,
+  "threads": 8,
+  "device": "cuda",
+  "batch_size": 48,
+  "download_workers": 16,
+  "synthetic": false,
+  "synthetic_dimension": 16,
+  "metrics": {
+    "swd_order": 2
+  },
+  "split": {
+    "label_fraction": 0.5,
+    "minimum_per_bin": 4
+  },
+  "statistical_permutations": 10000,
+  "style": {
+    "sample_per_bin": 150,
+    "sharpness_sample": 50,
+    "reference_images": 5000
+  },
+  "compute_icc": true,
+  "grids": [
+    [
+      "television",
+      "en",
+      "clip"
+    ],
+    [
+      "television",
+      "bn",
+      "clip"
+    ],
+    [
+      "phone",
+      "ja",
+      "clip"
+    ],
+    [
+      "phone",
+      "en",
+      "clip"
+    ],
+    [
+      "surgery",
+      "en",
+      "clip"
+    ],
+    [
+      "protest",
+      "en",
+      "clip"
+    ],
+    [
+      "mountain",
+      "en",
+      "clip"
+    ],
+    [
+      "drone",
+      "en",
+      "clip"
+    ],
+    [
+      "robot",
+      "en",
+      "clip"
+    ],
+    [
+      "television",
+      "en",
+      "siglip2"
+    ]
+  ]
+}

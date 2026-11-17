@@ -1,0 +1,26 @@
+{
+  "clip": {
+    "repo": "openai/clip-vit-base-patch32",
+    "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+  },
+  "mclip": {
+    "repo": "sentence-transformers/clip-ViT-B-32-multilingual-v1",
+    "revision": "58edf8cada9e398793dca955574a48cbb7f18be2"
+  },
+  "m_openclip": {
+    "repo": "laion/CLIP-ViT-B-32-xlm-roberta-base-laion5B-s13B-b90k",
+    "revision": "506d40eb551f4801a1c27fc20a31c7b8f590deda"
+  },
+  "siglip2": {
+    "repo": "google/siglip2-base-patch16-256",
+    "revision": "3f9f96cb90da5dbc758b01813f2f6f1aee24c1ab"
+  },
+  "dataset": {
+    "repo": "mehdidc/yfcc15m",
+    "revision": "7ef74d0624efc36c16fe3b82aa5438f7c7260706"
+  },
+  "xlm_roberta": {
+    "repo": "FacebookAI/xlm-roberta-base",
+    "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089"
+  }
+}

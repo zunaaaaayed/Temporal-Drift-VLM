@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "temporal-drift-vlm"
+version = "0.1.0"
+description = "Reproducible temporal probing of multilingual visual embedding spaces"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+license = "Apache-2.0"
+dependencies = [
+  "numpy==2.2.6", "pandas==2.2.3", "scipy==1.15.3",
+  "Pillow==11.2.1", "matplotlib==3.10.3", "scikit-learn==1.6.1",
+  "statsmodels==0.14.4", "requests==2.32.3",
+]
+
+[project.optional-dependencies]
+models = [
+  "torch==2.7.1", "torchvision==0.22.1", "transformers==4.51.3",
+  "sentence-transformers==4.1.0", "open-clip-torch==2.32.0",
+  "huggingface-hub==0.31.4", "datasets==3.6.0", "sentencepiece==0.2.0",
+  "ftfy==6.3.1", "timm==1.0.15", "opencv-python-headless==4.11.0.86",
+]
+viz = ["umap-learn==0.5.7", "pingouin==0.5.5"]
+dev = ["pytest==8.3.5", "ruff==0.11.13"]
+
+[project.scripts]
+tdrift = "temporal_drift.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/temporal_drift"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

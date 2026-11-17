@@ -6,7 +6,6 @@
 CLAUDE.md
 graphify-out
 .claude
-.gitignore
 
 results/*
 !results/.gitkeep
@@ -173,6 +172,7 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
+.ruff_cache/
 cover/
 
 # Translations
@@ -285,3 +285,51 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+
+# Large inputs, model weights, environments, and local runtime files.
+# Anchor project folders so src/temporal_drift/data stays versioned.
+/data/
+/.logs/
+/.models/
+
+# Preserve the historical notebook locally without tracking it in Git.
+/t-Drift-VLM_48c.ipynb
+
+# Keep artifact caches local; version the scientific reports, tables and figures.
+/artifacts/**
+!/artifacts/**/
+!/artifacts/**/metrics/**/*.csv
+!/artifacts/**/taxonomy/**/*.csv
+!/artifacts/**/taxonomy/**/taxonomy.json
+!/artifacts/**/statistics/**/*.csv
+!/artifacts/**/statistics/**/*.json
+!/artifacts/**/statistics/**/*.md
+!/artifacts/**/retrieval/**/*.csv
+!/artifacts/**/trajectory/**/trajectory_results.csv
+!/artifacts/**/style/**/style_metrics.csv
+!/artifacts/**/style/**/vgg_weights.json
+!/artifacts/**/normalize/**/normalization_*.csv
+!/artifacts/**/normalize/**/trajectory_results.csv
+!/artifacts/**/normalize/**/lab_reference.json
+!/artifacts/**/plots/**/*.png
+!/artifacts/**/grids/**/*.png
+!/artifacts/**/grids/**/*.csv
+!/artifacts/**/projections/**/*.png
+/artifacts/**/_complete.json
+
+# Preserve run provenance and launch commands, excluding logs and working data.
+/runs/**
+!/runs/**/
+!/runs/**/run.json
+!/runs/**/config.resolved.json
+!/runs/**/RUN.md
+!/runs/**/exit_code.txt
+!/runs/**/launch.sh
+!/runs/**/prefetch.py
+!/runs/**/prefetch_summary.json
+!/runs/**/source/**
+!/runs/model-adapter-check/results.json
+!/runs/model-adapter-check/verified.json
+/runs/**/.run.lock
+/runs/**/__pycache__/
+/runs/**/*.py[cod]
